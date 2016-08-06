@@ -1,0 +1,51 @@
+.jumbotron, body{
+background-color: black;
+margin: 5px;
+padding:10px;
+
+}
+#addbutton{
+	background-color: #71bd18;
+}
+
+.input-group{
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+.giphy{
+	background-color:purple;
+	color: white;
+	height: 35px;
+	width: 130px;
+	border-radius: 10px;
+	margin: 5px;
+
+
+}
+.giphy:hover{
+    background-color: green;
+}
+#gifbutton, .container{
+	text-align: center;
+	margin: 5px;
+
+}
+
+
+
+
+.jumbotron .h1, .jumbotron h1{
+    animation: fadeIn 2s infinite alternate;
+    font-size: 100px;
+    margin: 10px;
+    padding:10px;
+    color: red;
+}
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+
+
+
+
