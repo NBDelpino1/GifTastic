@@ -56,7 +56,7 @@ function addNewButton(name) {
         newButton.text(name);
         $('#gifbutton').append(newButton);
     }
-    //function displays new buttons
+    //function displays new button
 
 function renderButtons() {
     // Deletes the Giphy prior to adding new Giphys (this is necessary otherwise you will have repeat buttons)
