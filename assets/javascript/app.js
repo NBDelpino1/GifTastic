@@ -2,6 +2,7 @@ var topics = ['Michael Jordan', 'Austin Powers', 'Optimus Prime', 'Family Guy'];
 renderButtons();
 //Ajax call
 $('.giphy').on('click', function() {
+    $('#results').empty()
         $.ajax({
             url: "http://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC",
             data: {
