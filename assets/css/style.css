@@ -5,6 +5,11 @@
 }
 
 #addbutton {
+    background-color: purple;
+    color: #fff;
+}
+
+#addbutton:hover {
     background-color: #71bd18;
 }
 
@@ -23,13 +28,13 @@
 }
 
 .giphy:hover {
-    background-color: green;
+    background-color: #71bd18;
 }
 
 #gifbutton,#results {
     text-align: center;
     margin: 5px;
-    padding:5px;
+    padding: 5px;
 }
 
 .jumbotron .h1,.jumbotron h1 {
