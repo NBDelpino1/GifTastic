@@ -43,8 +43,8 @@
         <div class="nav-wrapper">
             <form>
                 <div class="input-field">
-                    <input id="search" type="search" required>
-                    <label class="label-icon" for="search"><i class="material-icons mag-glass-icon">search</i></label>
+                    <input id="userinput" type="search" required>
+                    <label class="label-icon" for="userinput"><i class="material-icons mag-glass-icon">search</i></label>
                     <i class="material-icons">close</i>
                 </div>
             </form>
@@ -55,8 +55,45 @@
         </div>
     </nav>
 
-</div>
 
+
+
+
+    <!-- Results Buttons -->
+    <div class="container" id="gifButton"></div>
+
+    <!-- Images -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p id="rating"></p>
+                <div class="text-center" id="results">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="row center-align" id="ratingsContainer" >
+        <!--<div class="col s3">2</div>-->
+        <!--<div class="col s3">3</div>-->
+        <!--<div class="col s3">4</div>-->
+    </div>
+
+    <div class="row center-align" id="imagesContainer" >
+        <!--<div class="col s3">2</div>-->
+        <!--<div class="col s3">3</div>-->
+        <!--<div class="col s3">4</div>-->
+    </div>
+
+
+
+
+
+
+</div>
 
 <script src="https://code.jquery.com/jquery-latest.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
@@ -65,7 +102,11 @@
 
 <!---------- TEMPORARY SCRIPTS ---------->
 <script>
-    $(".button-collapse").sideNav();
+
+    $( document ).ready(function(){
+        $(".button-collapse").sideNav();
+    });
+
 </script>
 
 </body>

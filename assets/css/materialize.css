@@ -9,9 +9,11 @@ body {
         width:99%;
     }
 }
+
 /* Top Navbar */
 #top-navbar {
-    background-color: #4386fc;
+    background-color:#4386fc;
+    margin-bottom: 5px;
 }
 
 /* Top Navbar - Slide Out list item */
@@ -36,4 +38,9 @@ nav .input-field label .mag-glass-icon {
     text-transform: none;
 }
 
+
+.row .col.s4 {
+    padding-left:0;
+    padding-right:0;
+}
 
