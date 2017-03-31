@@ -1,0 +1,39 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Container will expand to fill full screen when mobile*/
+
+@media screen and (max-width: 480px) {
+    .container {
+        width:99%;
+    }
+}
+/* Top Navbar */
+#top-navbar {
+    background-color: #4386fc;
+}
+
+/* Top Navbar - Slide Out list item */
+.side-nav a {
+    color: #e91e63;
+}
+
+/* Bottom Navbar */
+#bottom-navbar {
+    background-color: #fff;
+}
+
+/* Magnifying Glass Icon inside of the Bottom Navbar input */
+nav .input-field label .mag-glass-icon {
+    color:#000;
+}
+
+/* Submit button */
+#submitButton {
+    width:100%;
+    background-color: #4386fc;
+    text-transform: none;
+}
+
+
