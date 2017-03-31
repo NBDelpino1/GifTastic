@@ -57,7 +57,7 @@ $('#submitButton').on('click', function () {
         url : "http://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC",
         data : {
 
-            limit : 20,
+            limit : 21,
             api_key : "dc6zaTOxFJmzC",
 
             q : userQuery
@@ -89,7 +89,14 @@ $('#submitButton').on('click', function () {
             $("#imagesContainer").append(' <div class="col s4 m3"><div class="video-container"><iframe  src=" ' + gif.embed_url + ' " frameborder="0"></iframe></div></div>');
 
             // TODO - need to append this to its respective iframe
-            $("#ratingsContainer").append('<div class="col s3"><p>Rated: ' + gif.rating + '</p></div>');
+            // $("#ratingsContainer").append('<div class="col s3"><p>Rated: ' + gif.rating + '</p></div>');
+
+
+
+
+
+
+
 
             // $("#results").append('<iframe height="300px" width="300px" src = " ' +  gif.embed_url +' " />');
 
