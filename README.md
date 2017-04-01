@@ -13,3 +13,6 @@
 
 #### After 
 ![image](https://cloud.githubusercontent.com/assets/18251657/24536467/9bcdbe7c-15a8-11e7-8fbe-dbc07e95f693.png)
+
+#### New Iteration
+![image](https://cloud.githubusercontent.com/assets/18251657/24575722/0fb6e844-167c-11e7-8697-e1523527d323.png)
