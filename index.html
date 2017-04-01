@@ -12,29 +12,22 @@
     <link href="assets/css/materialize.css" rel="stylesheet">
 </head>
 <body>
-    <!--<div class="container">-->
-        <header class="container">
-            <!---------- Top Navbar ---------->
-            <nav id="top-navbar" class="z-depth-0">
-                <div class="nav-wrapper">
-                    <a href="#!" class="brand-logo"><img src="assets/images/logo.png" id="logo"></a>
-                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href="sass.html">Sass</a></li>
-                        <li><a href="badges.html">Components</a></li>
-                        <li><a href="collapsible.html">Javascript</a></li>
-                        <li><a href="mobile.html">Mobile</a></li>
-                    </ul>
-                    <ul class="side-nav" id="mobile-demo">
-                        <li><a href="sass.html">Sass</a></li>
-                        <li><a href="badges.html">Components</a></li>
-                        <li><a href="collapsible.html">Javascript</a></li>
-                        <li><a href="mobile.html">Mobile</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <!---------- Bottom Navbar ---------->
-            <nav id="bottom-navbar">
+    <div class="container main-wrapper">
+
+        <!------------------------------------------------------------------------------------------------------------->
+
+        <div class="container center-align">
+            <div class="row" id="imagesContainer" >
+                <!--ALL OF THE IMAGES WILL POPULATE IN HERE-->
+            </div>
+        </div>
+
+        <!------------------------------------------------------------------------------------------------------------->
+        <div class="center-align">
+            <!--<div>-->
+                <!--<img src="assets/images/logo2.png" id="logo">-->
+            <!--</div>-->
+            <nav>
                 <div class="nav-wrapper">
                     <form>
                         <div class="input-field">
@@ -43,35 +36,32 @@
                             <i class="material-icons">close</i>
                         </div>
                     </form>
-
                 </div>
             </nav>
-        </header>
-
-
-        <main id="conatiner">
-            <!------------------------------------ Testing Site ----------------------------------->
-            <div class="row center-align" id="ratingsContainer" >
-                <!--<div class="col s3">2</div>-->
-                <!--<div class="col s3">3</div>-->
-                <!--<div class="col s3">4</div>-->
-            </div>
-
-            <div class="row center-align" id="imagesContainer" >
-                <!--<div class="col s3">2</div>-->
-                <!--<div class="col s3">3</div>-->
-                <!--<div class="col s3">4</div>-->
-            </div>
-            <!------------------------------------ Testing Site ----------------------------------->
-        </main>
-
-        <div class="container navbar-fixed">
-            <!---------- Submit Button ---------->
-            <div>
-                <button id="submitButton" class="waves-effect waves-light btn-large" type="submit" name="action">Submit</button>
-            </div>
         </div>
-    <!--</div>-->
+
+        <!------------------------------------------------------------------------------------------------------------->
+        <div class="center-align">
+            <button id="submitButton" class="waves-effect waves-light btn-large" type="submit" name="action">Submit</button>
+        </div>
+        <!------------------------------------------------------------------------------------------------------------->
+
+
+            <!------------------------------------ Testing Site ----------------------------------->
+            <!--<div class="row center-align" id="ratingsContainer" >-->
+                <!--&lt;!&ndash;<div class="col s3">2</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="col s3">3</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="col s3">4</div>&ndash;&gt;-->
+            <!--</div>-->
+
+
+
+            <!------------------------------------ Testing Site ----------------------------------->
+
+
+
+
+
 
 <script src="https://code.jquery.com/jquery-latest.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
@@ -84,6 +74,7 @@
     $( document ).ready(function(){
         $(".button-collapse").sideNav();
     });
+//    need onclick that hides the logo and removes the top marhion from the main wrapper
 
 </script>
 
