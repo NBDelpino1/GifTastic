@@ -52,3 +52,8 @@ function renderButtons() {
         $('#gifbutton').append(newButton);
     }
     }
+
+
+
+
+

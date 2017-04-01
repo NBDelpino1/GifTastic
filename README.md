@@ -1,18 +1,15 @@
-### giphy-ajax 
+### giphy-ajax - use of the GiphyAPI
 
-#### Simulation of the Giphy App. User the Giphy API
+#### User can either enter a search criteria 
+![image](https://cloud.githubusercontent.com/assets/18251657/24582676/b05dca16-1702-11e7-8abe-d1bf6f10fe52.png)
 
-#### Before 
-![image](https://cloud.githubusercontent.com/assets/18251657/24536541/163a3154-15a9-11e7-85ea-49081782f35b.png)
+#### ...or use the menu button (bottom right of screen) to select from the main categories
 
-#### After 
-![image](https://cloud.githubusercontent.com/assets/18251657/24536466/97307242-15a8-11e7-84c7-095f62adb57b.png)
+![image](https://cloud.githubusercontent.com/assets/18251657/24582677/b3e7a148-1702-11e7-8113-b5ce7f0bead4.png)
 
-#### Before
-![image](https://cloud.githubusercontent.com/assets/18251657/24536545/1ab539cc-15a9-11e7-9203-549aca654529.png)
 
-#### After 
-![image](https://cloud.githubusercontent.com/assets/18251657/24536467/9bcdbe7c-15a8-11e7-8fbe-dbc07e95f693.png)
+#### Once the search has been initiated the logo shrinks so that more content can be displayed, 20 Giphys are shown at a time
 
-#### New Iteration
-![image](https://cloud.githubusercontent.com/assets/18251657/24575722/0fb6e844-167c-11e7-8697-e1523527d323.png)
+![image](https://cloud.githubusercontent.com/assets/18251657/24582679/b7984ca2-1702-11e7-8cd0-c459a034c0f6.png)
+
+

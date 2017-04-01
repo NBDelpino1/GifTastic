@@ -7,16 +7,6 @@ body, html {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Main wrapper that holds everything */
-.main-wrapper {
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    width: 100%;
-    margin-top:60px;
-}
-
 /* All Rows and Columns */
 .row .col.s4 {
     padding:1px;
@@ -30,12 +20,11 @@ body, html {
 }
 
 h2 {
-    /*font-family: 'Monoton', cursive;*/
-    font-family: 'Michroma', sans-serif;
+    font-family: 'Monoton', cursive;
+    /*font-family: 'Michroma', sans-serif;*/
     font-size:30px;
     text-transform: uppercase;
-    font-style: italic;
-    color: #9e9e9e;
+    color: #f44336;
     margin-top:0;
     margin-bottom:40px;
 }
@@ -48,7 +37,7 @@ h2 {
 /* Search Bar */
 nav {
     background-color: #fff;
-    width:80%;
+    /*width:95%;*/
     margin:auto;
     margin-bottom:5px;
 }
@@ -71,10 +60,11 @@ nav .input-field label .mag-glass-icon {
 
  /* Button */
 #submitButton {
-    width:80%;
-    /*background-color: #4386fc;*/
-    background-color: #700108;
+    width:100%;
+    /*background-color: #8bc34a;*/
+    background-color:  #f44336;
     text-transform: none;
+    margin-bottom:5px;
 }
 
 /* Decrease button width when on desktop */
@@ -82,11 +72,9 @@ nav .input-field label .mag-glass-icon {
     #submitButton {
         width: 40%;
         margin: auto;
+        margin-bottom:5px;
     }
 
 }
-
-
-
 
 
