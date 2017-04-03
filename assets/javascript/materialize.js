@@ -133,7 +133,6 @@ $(document).ready(function () {
 
             console.log(res.data);
 
-
             $.each(res.data, function (key, gif) {
 
                 // Grab the ratings from the data returned and denerate some html to display to user
