@@ -12,6 +12,6 @@
 
 #### Desktop Views
 
-![image](https://cloud.githubusercontent.com/assets/18251657/24783889/1e943240-1b1d-11e7-81bb-4f9e946782c8.png)
+![image](https://cloud.githubusercontent.com/assets/18251657/24784210/081b16ee-1b1f-11e7-85d6-05b7b705540a.png)
 
-![image](https://cloud.githubusercontent.com/assets/18251657/24783894/2187fafe-1b1d-11e7-897a-dcbae1cb67a9.png)
+![image](https://cloud.githubusercontent.com/assets/18251657/24784183/d251d9c6-1b1e-11e7-922c-683b877d1b78.png)
