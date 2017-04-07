@@ -18,7 +18,6 @@ body, html {
 
 h2 {
     font-family: 'Monoton', cursive;
-    /*font-family: 'Michroma', sans-serif;*/
     font-size:30px;
     text-transform: uppercase;
     color: #6b3192;
@@ -30,6 +29,13 @@ p {
     color: #fff;
     margin-top:0;
     margin-bottom:20px;
+}
+
+/*site logo*/
+
+#logo {
+    height:300px;
+    border-radius: 15px;;
 }
 /* --------------- Local Styles ------------------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------------ */
